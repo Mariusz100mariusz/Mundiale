@@ -3,5 +3,5 @@ services:
     name: gra-mundial-2014
     env: node
     buildCommand: npm install
-    startCommand: node server.js
+    startCommand: node Server.js
     autoDeploy: true
