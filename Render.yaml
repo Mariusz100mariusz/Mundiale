@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gra-mundial-2014
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    autoDeploy: true
